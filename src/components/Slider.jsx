@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material';
 import styled from 'styled-components';
-import { sliderData } from './SliderData';
+import { sliderData } from '../data';
 
 const Container = styled.div`
   width: 100%;

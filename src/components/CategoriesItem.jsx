@@ -2,8 +2,9 @@ import styled from '@emotion/styled';
 import React from 'react';
 
 const Container = styled.div`
-  flex: 1;
+  width: calc((100% / 4));
   position: relative;
+  height: 70vh;
 `;
 
 const Image = styled.img`
@@ -29,10 +30,11 @@ const Info = styled.div`
   }
 `;
 
-const Title = styled.h1``;
+const Title = styled.h1`
+  margin-bottom: 0.7rem;
+`;
 
 const Button = styled.button`
-  margin: 0.7rem;
   padding: 1rem;
   font-size: 1rem;
   font-weight: 300;
@@ -44,6 +46,7 @@ const Button = styled.button`
     transform: scale(1.01, 1.01);
     font-weight: 500;
     box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+    color: teal;
   }
 `;
 
